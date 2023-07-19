@@ -1,7 +1,7 @@
 #include "main.h"
-#include <unistd.h>
 /**
- *main - programme that prints _putchar 
+ *main - entry point
+ *Description: 'prints _putchar to stdout'
  *Return : always 0
  */
 
@@ -17,5 +17,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-
 }
