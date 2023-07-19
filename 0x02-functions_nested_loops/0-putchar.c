@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - putchar funny faces
+ * main - entry point
  * Return : always 0
  */
 
