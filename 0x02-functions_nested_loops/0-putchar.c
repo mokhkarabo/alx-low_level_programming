@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  *main - programme that prints _putchar 
  *Return : always 0
