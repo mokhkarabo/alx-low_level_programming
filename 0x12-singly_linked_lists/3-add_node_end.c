@@ -3,10 +3,11 @@
 #include "lists.h"
 
 /**
- * Adds a new node at the end of a list_t list.
- * @param head A pointer  to the head of the list
- * @param str the string to be duplicated and added to the new node.
- * @return the adress to the new element, or NULL if it failed
+ * add_node_end - Adds a new node at the end of a linked list
+ * @head: Double pointer to the list_t list
+ * @str: String to put in the new node
+ *
+ * Return: address of the new element, or NULL if it failed
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
